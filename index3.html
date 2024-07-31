@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            width: 100px;
+            height: 60px;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+        }
+        .b{
+            font-size: 40px;
+        }
+        #e{
+            background-color: white;
+        }
+        .row1 :nth-child(even),.row3 :nth-child(even),.row5 :nth-child(even), .row7 :nth-child(even){
+            background-color: rgb(99, 98, 98);
+        }
+        .row2 :nth-child(odd), .row4 :nth-child(odd),.row6 :nth-child(odd),.row8 :nth-child(odd){
+            background-color: rgb(99, 99, 99);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr class="row1">
+            <td><b class="b">&#9814;</b></td>
+            <td><b class="b">&#9816;</b></td>
+            <td><b class="b">&#9815;</b></td>
+            <td><b class="b">&#9813;</b></td>
+            <td><b class="b">&#9812;</b></td>
+            <td><b class="b">&#9815;</b></td>
+            <td><b class="b">&#9816;</b></td>
+            <td><b class="b">&#9814;</b></td>
+        </tr>
+        <tr class="row2">
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b" id="e">&#9817;</b></td>
+            <td></td>
+            <td><b class="b" id="e">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b" id="e">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b" id="e">&#9817;</b></td>
+        </tr>
+        <tr class="row3">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row4">
+            <td></td>
+            <td></td>
+            <td><b class="b">&#9817;</b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row5">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b class="b">&#9817;</b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row6">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row7">
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+            <td><b class="b">&#9817;</b></td>
+        </tr>
+        <tr class="row8">
+            <td><b class="b">&#9814;</b></td>
+            <td><b class="b" id="e">&#9816;</b></td>
+            <td><b class="b">&#9815;</b></td>
+            <td><b class="b" id="e">&#9812;</b></td>
+            <td><b class="b">&#9813;</b></td>
+            <td><b class="b" id="e">&#9815;</b></td>
+            <td><b class="b">&#9816;</b></td>
+            <td><b class="b" id="e">&#9814;</b></td>
+        </tr>
+    </table>
+</body>
+</html>
